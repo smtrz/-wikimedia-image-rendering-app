@@ -30,15 +30,15 @@ class NetModule// Constructor needs one parameter to instantiate.
     }
 
     @Provides
-    internal fun getRetrofit(okHttpClient: OkHttpClient): Retrofit {
+    internal fun getRetrofit(): Retrofit {
         return Retrofit.Builder()
             .baseUrl(AppConstant.BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
-            .client(okHttpClient)
+            .client(getOkHttpClient(httpLoggingInterceptor))
             .build()
     }
 
-    @Provides
+
     internal fun getOkHttpClient(httpLoggingInterceptor: HttpLoggingInterceptor): OkHttpClient {
         return OkHttpClient.Builder()
             .addInterceptor(httpLoggingInterceptor)
@@ -62,14 +62,7 @@ class NetModule// Constructor needs one parameter to instantiate.
                 BaseUrl,
                 pins.get(0)
             )
-            .add(
-                BaseUrl,
-                pins.get(1)
-            )
-            .add(
-                BaseUrl,
-                pins.get(2)
-            )
+
             .build()
         return certificatePinner
 

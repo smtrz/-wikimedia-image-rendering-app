@@ -18,8 +18,5 @@ interface AppLevelComponent {
     fun inject(ar: MainActivityViewModel)
 
 
-    /* fun inject(ma: GroupAdapter)
-     fun inject(ma: GroupMemeberActivity)*/
-
 }
 

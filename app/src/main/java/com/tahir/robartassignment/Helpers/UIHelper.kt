@@ -102,9 +102,7 @@ object UIHelper {
                 "OK"
             ) { dialog, id ->
                 dialog.dismiss()
-                if (context is Activity) {
-                    context.finish()
-                }
+
             }
 
         val alert = builder.create()

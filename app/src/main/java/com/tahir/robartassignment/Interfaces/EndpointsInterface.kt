@@ -3,10 +3,7 @@ package com.tahir.robortassignment.Interfaces
 
 import okhttp3.ResponseBody
 import retrofit2.Call
-import retrofit2.http.Field
-import retrofit2.http.FormUrlEncoded
-import retrofit2.http.GET
-import retrofit2.http.POST
+import retrofit2.http.*
 
 
 interface EndpointsInterface {
@@ -17,9 +14,9 @@ interface EndpointsInterface {
     ): Call<ResponseBody>
 
 
-    @GET("render/png")
+    @GET("render/png/{location}")
     fun renderImage(
-       
+        @Path("location") location_header: String
     ): Call<ResponseBody>
 
 }

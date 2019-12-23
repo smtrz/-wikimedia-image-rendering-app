@@ -18,9 +18,8 @@ object AppConstant {
     val serverHostName = getHostName()
     val BASE_URL = getBaseUrl()
     val sslpins = arrayOf(
-        SSLKey1(),
-        SSLKey2(),
-        SSLKey3()
+        SSLKey1()
+
     )
 
 }
