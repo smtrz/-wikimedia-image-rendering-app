@@ -1,4 +1,4 @@
-package com.tahir.robortassignment.Modules
+package com.tahir.robartassignment.Modules
 
 import android.content.Context
 import dagger.Module

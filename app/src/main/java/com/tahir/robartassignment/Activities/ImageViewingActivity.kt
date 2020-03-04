@@ -1,4 +1,4 @@
-package com.tahir.robortassignment.Activities
+package com.tahir.robartassignment.Activities
 
 import android.graphics.Bitmap
 import android.os.Build
@@ -13,9 +13,9 @@ import com.karumi.dexter.listener.PermissionRequest
 import com.karumi.dexter.listener.multi.CompositeMultiplePermissionsListener
 import com.karumi.dexter.listener.multi.DialogOnAnyDeniedMultiplePermissionsListener
 import com.karumi.dexter.listener.multi.MultiplePermissionsListener
-import com.tahir.robortassignment.Helpers.ImageHelper
-import com.tahir.robortassignment.Helpers.ImageHelper.shareImage
-import com.tahir.robortassignment.R
+import com.tahir.robartassignment.Helpers.ImageHelper
+import com.tahir.robartassignment.Helpers.ImageHelper.shareImage
+import com.tahir.robartassignment.R
 import kotlinx.android.synthetic.main.imageview_activity.*
 
 

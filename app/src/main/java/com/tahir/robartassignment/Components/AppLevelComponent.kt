@@ -1,12 +1,12 @@
-package com.tahir.robortassignment.Components
+package com.tahir.robartassignment.Components
 
 
-import com.tahir.robortassignment.Activities.MainActivity
-import com.tahir.robortassignment.Modules.ContextModule
-import com.tahir.robortassignment.Modules.NetModule
-import com.tahir.robortassignment.Modules.RepositoryModule
-import com.tahir.robortassignment.Repository.AppRepository
-import com.tahir.robortassignment.ViewModels.MainActivityViewModel
+import com.tahir.robartassignment.Activities.MainActivity
+import com.tahir.robartassignment.Modules.ContextModule
+import com.tahir.robartassignment.Modules.NetModule
+import com.tahir.robartassignment.Modules.RepositoryModule
+import com.tahir.robartassignment.Repository.AppRepository
+import com.tahir.robartassignment.ViewModels.MainActivityViewModel
 import dagger.Component
 import javax.inject.Singleton
 

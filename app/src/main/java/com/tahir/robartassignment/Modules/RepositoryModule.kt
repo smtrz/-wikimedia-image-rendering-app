@@ -1,6 +1,6 @@
-package com.tahir.robortassignment.Modules
+package com.tahir.robartassignment.Modules
 
-import com.tahir.robortassignment.Repository.AppRepository
+import com.tahir.robartassignment.Repository.AppRepository
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tahir.robortassignment">
+    package="com.tahir.robartassignment">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name="com.tahir.robortassignment.Components.App"
+        android:name="com.tahir.robartassignment.Components.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -15,7 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name="com.tahir.robortassignment.Activities.MainActivity">
+        <activity
+            android:name="com.tahir.robartassignment.Activities.MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,7 +25,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.tahir.robortassignment.Activities.ImageViewingActivity" />
+        <activity
+            android:name="com.tahir.robartassignment.Activities.ImageViewingActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

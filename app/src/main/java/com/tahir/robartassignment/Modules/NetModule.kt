@@ -1,8 +1,8 @@
-package com.tahir.robortassignment.Modules
+package com.tahir.robartassignment.Modules
 
 import com.google.gson.Gson
-import com.tahir.robortassignment.Configurations.AppConstant
-import com.tahir.robortassignment.Interfaces.EndpointsInterface
+import com.tahir.robartassignment.Configurations.AppConstant
+import com.tahir.robartassignment.Interfaces.EndpointsInterface
 import dagger.Module
 import dagger.Provides
 import okhttp3.CertificatePinner

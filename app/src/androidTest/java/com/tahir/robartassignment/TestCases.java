@@ -10,11 +10,11 @@ import androidx.lifecycle.LifecycleRegistry;
 import androidx.lifecycle.Observer;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
-import com.tahir.robortassignment.Components.App;
-import com.tahir.robortassignment.Interfaces.RetrofitCallBack;
-import com.tahir.robortassignment.Models.ExpressioncallBack;
-import com.tahir.robortassignment.Repository.AppRepository;
-import com.tahir.robortassignment.ViewModels.MainActivityViewModel;
+import com.tahir.robartassignment.Components.App;
+import com.tahir.robartassignment.Interfaces.RetrofitCallBack;
+import com.tahir.robartassignment.Models.ExpressioncallBack;
+import com.tahir.robartassignment.Repository.AppRepository;
+import com.tahir.robartassignment.ViewModels.MainActivityViewModel;
 
 import org.jetbrains.annotations.NotNull;
 import org.junit.After;
@@ -110,7 +110,7 @@ public class TestCases {
 
         checkCorrectExpression();
         try {
-            Thread.sleep(5000);
+            Thread.sleep(10000);// waiting for 10 seconds
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

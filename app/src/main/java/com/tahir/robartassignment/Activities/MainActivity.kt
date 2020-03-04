@@ -1,4 +1,4 @@
-package com.tahir.robortassignment.Activities
+package com.tahir.robartassignment.Activities
 
 import android.content.Context
 import android.content.Intent
@@ -9,14 +9,15 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.google.gson.Gson
-import com.tahir.robortassignment.Components.App
-import com.tahir.robortassignment.Helpers.ErrorHelper
-import com.tahir.robortassignment.Helpers.UIHelper
-import com.tahir.robortassignment.Interfaces.RetrofitCallBack
-import com.tahir.robortassignment.Models.ExpressioncallBack
-import com.tahir.robortassignment.Models.ImageResult
-import com.tahir.robortassignment.R
-import com.tahir.robortassignment.ViewModels.MainActivityViewModel
+import com.tahir.robartassignment.Activities.ImageViewingActivity
+import com.tahir.robartassignment.Components.App
+import com.tahir.robartassignment.Helpers.ErrorHelper
+import com.tahir.robartassignment.Helpers.UIHelper
+import com.tahir.robartassignment.Interfaces.RetrofitCallBack
+import com.tahir.robartassignment.Models.ExpressioncallBack
+import com.tahir.robartassignment.Models.ImageResult
+import com.tahir.robartassignment.R
+import com.tahir.robartassignment.ViewModels.MainActivityViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 import retrofit2.Retrofit
 import javax.inject.Inject

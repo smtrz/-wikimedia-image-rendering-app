@@ -1,8 +1,8 @@
-package com.tahir.robortassignment.Components;
+package com.tahir.robartassignment.Components;
 
 import android.app.Application
-import com.tahir.robortassignment.Modules.ContextModule
-import com.tahir.robortassignment.Modules.NetModule
+import com.tahir.robartassignment.Modules.ContextModule
+import com.tahir.robartassignment.Modules.NetModule
 
 
 class App : Application() {

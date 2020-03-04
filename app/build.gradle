@@ -40,7 +40,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.tahir.robortassignment"
+        applicationId "com.tahir.robartassignment"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
@@ -50,6 +50,13 @@ android {
     buildTypes {
         release {
             minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled true
+            //to use test cases under proguard, please enable the following line.
+            //testProguardFile 'proguard-test-rules.pro'
+
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }

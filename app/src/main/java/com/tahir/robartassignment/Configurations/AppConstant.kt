@@ -1,4 +1,4 @@
-package com.tahir.robortassignment.Configurations
+package com.tahir.robartassignment.Configurations
 
 import java.lang.System.loadLibrary
 

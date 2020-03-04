@@ -1,4 +1,4 @@
-package com.tahir.robortassignment.Interfaces
+package com.tahir.robartassignment.Interfaces
 
 interface RetrofitCallBack {
 
