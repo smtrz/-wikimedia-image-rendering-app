@@ -7,8 +7,7 @@ It's is an android application written in 'KOTLIN' that renders image for the en
   - Live Data
 
 # Screenshots
-
-<img src="https://github.com/smtrz/wikimedia-image-rendering-app/blob/master/screen_1.png" alt="drawing" width="350"/>  | <img src="https://github.com/smtrz/wikimedia-image-rendering-app/blob/master/screen_2.png" alt="drawing" width="350"/>
+<img src="https://github.com/smtrz/-wikimedia-image-rendering-app/blob/master/screen_1.png" alt="drawing" width="350"/>  | <img src="https://github.com/smtrz/-wikimedia-image-rendering-app/blob/master/screen_2.png" alt="drawing" width="350"/>
 
 # Features
 
